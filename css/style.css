@@ -1,0 +1,228 @@
+/*intialisation de la page*/
+*{
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	box-shadow: border-box;
+	font-family: ariel,verdana,tahoma;
+
+}
+body{
+	background-color: #FAF5F6;
+}
+/*Design de menu lateral*/
+#container #menu-lateral {
+	background-color: rgb(5,68,104);
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 20px,0;
+}
+#container #menu-lateral #profil {
+	text-align: center;
+	margin-bottom: 30px;
+}
+/*Design de la section profil*/
+#container #menu-lateral #profil img{
+	display: block;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 10px solid rgb(32,44,69);
+	margin: 0 auto;
+}
+#container #menu-lateral #profil h3 {
+	color: #FFF;
+	margin: 10px 0 5px;
+}
+#container #menu-lateral #profil p{
+	color: whitesmoke;
+	font-size: 14px;
+}
+/*design de la section liste menu*/
+#menu-lateral ul li a {
+	display: block;
+	padding: 13px 30px;
+	color: rgb(241,237,237);
+	font-size: 15px;
+	border-bottom: 1px solid #10558D;
+	position: relative;
+}
+#menu-lateral ul li a:hover {
+	color: #0C7DB1;
+	background-color: #FFF;
+	border-right: 2px solid rgb(5,68,104);
+}
+#menu-lateral .active {
+	color: #0C7DB1;
+	background-color: #FFF;
+	border-right: 2px solid rgb(5,68,104);
+
+}
+/*design de la section contenu du blog*/ 
+#section {
+	width: calc(100% - 250px);
+	margin-left: 250px;
+}
+#section .topbar {
+	background-color: rgb(32,44,69);
+	height: 55px;
+	align-items: center ;
+	display: flex;
+	justify-content: center;
+}
+.topbar .titre a h2 {
+	font-size: 2em;
+	color: white;
+	font-style: italic;
+
+}
+.topbar .titre a h2:hover {
+	color: lightblue;
+	font-weight: bold;
+	font-size: 2.2em;
+
+
+}
+/*design de la section bannière*/
+#section .banner{
+	height:200px;
+	background-color: rgb(7,105,185);
+	
+}
+.banner .card{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
+}
+.banner .card h2 {
+	color: whitesmoke;
+	font-size: 2em;
+}
+.banner .trait {
+	width: 50%;
+	margin: auto;
+	height: 10px;
+	background-color: lightyellow;
+	margin-top: 15px;
+
+}
+.banner .btn {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+.banner .btn button {
+	font-size: 2em;
+	color: blue;
+}
+.banner .btn button:hover { 
+	background-color: darkblue;
+	color: #FFF;
+}
+/*design de la section des article 1*/
+.article{
+	display: flex;
+	height: 250px;
+	margin: 10px;
+}
+.article .poste {
+	height: 150px;
+	width: 150px;
+}
+.post {
+	margin: 10px;
+	padding: 5px;
+}
+/*Design de la section des articles 2*/
+.article2{
+	display: flex;
+	height: 280px;
+	margin: 10px;
+}
+.article2 .poste2 {
+	height: 150px;
+	width: 150px;
+}
+.post2 {
+	margin: 10px;
+	padding: 5px;}
+	/*design de la section bannere*/
+#section .bannere{
+	height:150px;
+	background-color: rgb(7,105,185);
+	margin-top:-10%;
+	padding-top:20px ;
+	margin-bottom: 10px;
+	
+}
+
+.bannere .card2 h3 {
+	font-size:25px;
+	color: white;
+	padding-top: 0px;
+	text-align: center;
+}
+.bannere p {
+	color: white; 
+	text-align: center;
+	margin-top: 4px;
+} 
+.bannere .btn2{
+	justify-content: center;
+	display: flex;
+	padding-top: 15px;
+}
+
+	
+.bannere .btn2 input{
+	width: 150px;
+	margin: 1px;
+}
+
+
+.bannere .btn2 button:hover{
+	background-color: darkblue;
+	color: #FFF;
+
+}
+/*design de la section de l'article 3*/
+ .article3 {
+ 	display: flex;
+ 	margin: 10px;
+ 	height: 150px;
+ }
+ .article3 .img-post3 img{
+ 	height: 150px;
+ 	width: 150px;
+ }
+ .article3 .post3{
+ 	margin: 15px;
+ }
+ .article4 {
+ 	display: flex;
+ 	margin: 10px;
+ 	margin-top: 100px;
+ 	height: 100px;
+ }
+ .article4 .img-post4 img{
+ 	height: 150px;
+ 	width: 150px;
+ }
+ .article4 .post4 {
+ 	margin: 15px;
+ }
+.adresse {
+	margin-top: 90px;
+	background-color: rgb(5, 68, 104) ;
+	color: white;
+	padding: 15px;
+	margin-bottom: 0px;
+	text-align: center;
+} 
+
+

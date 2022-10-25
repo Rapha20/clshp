@@ -1,0 +1,1187 @@
+<!doctype html>
+<html lang="fr" class="scroll-smooth">
+<head>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-56G6JZ3');</script>
+	<!-- End Google Tag Manager -->
+	<meta charset="utf-8">
+	<title>Les listes HTML</title>
+	<meta name="description"
+	      content=" Le langage de balisage hypertexte prend en charge trois types de listes, chacune avec ses propres balises. ">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="apple-touch-icon" href="/images/logos/192.png">
+	<meta name="theme-color" content="#42444e">
+	<link rel="shortcut icon" href="/favicon.ico" />
+
+			<link rel="preload" href="https://fonts.googleapis.com/css?family=Nunito&display=optional"
+		      as="style">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito&display=optional">
+
+		<link rel="preload"
+		      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=optional"
+		      as="style">
+		<link rel="stylesheet"
+		      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=optional">
+	
+			<link rel="preload" href="/build/images/logo-color-w3.png" as="image">
+	
+					
+				<link rel="canonical" href="https://fr.w3docs.com/apprendre-html/les-listes-html.html" />
+	
+	<meta property="og:url"
+	      content="https://fr.w3docs.com/apprendre-html/les-listes-html.html" />
+
+		<link rel="alternate" href="https://www.w3docs.com/learn-html/html-lists.html" hreflang="en" />
+
+							<link rel="alternate" href="https://www.w3docs.com/learn-html/html-lists.html" hreflang="x-default" />
+					<link rel="alternate" href="https://de.w3docs.com/html-lernen/html-listen.html" hreflang="de" />
+
+					<link rel="alternate" href="https://ru.w3docs.com/uchebnik-html/html-spiski.html" hreflang="ru" />
+
+					<link rel="alternate" href="https://fr.w3docs.com/apprendre-html/les-listes-html.html" hreflang="fr" />
+
+							<meta property="og:type" content="article" />
+	<meta property="og:title" content="Les listes HTML" />
+	<meta property="og:description"
+	      content=" Le langage de balisage hypertexte prend en charge trois types de listes, chacune avec ses propres balises. " />
+	<meta property="og:image"
+	      content="https://fr.w3docs.com/uploads/media/book_gallery/0001/02/849d4286475e04155fd5f21861f16f53db95ac72.png" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@w3docs" />
+	<meta name="twitter:title"
+	      content="Les listes HTML" />
+	<meta name="twitter:description"
+	      content=" Le langage de balisage hypertexte prend en charge trois types de listes, chacune avec ses propres balises. " />
+	<meta name="twitter:image"
+	      content="https://fr.w3docs.com/uploads/media/book_gallery/0001/02/849d4286475e04155fd5f21861f16f53db95ac72.png" />
+
+				<link rel="stylesheet" href="/build/css/tailwind.f1004b28.css">
+	
+	<style>@media (min-width: 962px) {
+  .responsive-image {
+    width: 420px;
+  }
+}</style>
+
+				<script src="/build/runtime.fc34b0e1.js" defer></script><script src="/build/app.4f572e26.js" defer></script>
+	
+																																																																																																			<script src="/build/js/feedback.047f546b.js" defer></script>
+
+	
+	</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56G6JZ3"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="font-nunito">
+	<div class="fixed w-full h-16 bg-blue-steel text-white flex justify-center z-50 border-b border-gray-700 print:hidden">
+		<header class="container flex justify-between max-w-6xl items-center px-4"><a aria-label="logo" href="/"><img src="/build/images/logo-color-w3.png" alt="w3docs logo" width="146" height="41"  /></a><form role="search" action="/search" target="_top"><div><input
+						class="bg-blue-steel text-white border-solid border-0 border-b border-white outline-0 focus:ring-0 px-2 py-1"
+						type="search"
+						name="q"
+						required
+						aria-label="search input"
+						placeholder="Rechercher"
+						value=""
+				/><button type="submit" aria-label="search button"></button></div></form><div class="hidden navbar lg:block"><nav><ul class="hidden md:flex md:gap-8 items-center"><li><div class="dropdown"><button class="dropbtn flex items-center hover:text-blue-500">
+								Les livres
+							</button><div class="dropdown-content bg-blue-steel text-white"><a href="/apprendre-html.html">
+										Apprendre HTML
+									</a><a href="/apprendre-css.html">
+										Apprendre CSS
+									</a></div></div></li><li><a href="/course" aria-current="page"
+						   class="nav-link text-decoration-none hover:text-blue-500 nuxt-link-exact-active nuxt-link-active"
+						>
+							Courses
+						</a></li><li><a href="/quiz/" class="hover:text-blue-500">Questionnaires</a></li><li><a href="/snippets" class="hover:text-blue-500">Snippets</a></li><li><a href="/tool/" class="hover:text-blue-500">Les outils</a></li></ul></nav></div></header>
+	</div>
+
+				<div class="hidden xl:block fixed bg-blue-steel text-white w-60 pt-16 h-full z-10 overflow-auto">
+			<div class="fixed h-full overflow-y-auto px-4 pb-36 pt-4">
+					<nav class="chapter-left-menu"><ul class="w-52"><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							Bases HTML
+						</strong><a href="/apprendre-html/introduction-au-html.html">Introduction au HTML</a><a href="/apprendre-html/editeurs-et-programmes-html.html">Éditeurs et programmes</a><a href="/apprendre-html/les-elements-html.html">Les éléments</a><a href="/apprendre-html/balises-de-base-html.html">Tags de base</a><a href="/apprendre-html/les-attributs-html.html">Attributs</a><a href="/apprendre-html/les-titres-html.html">Les titres</a><a href="/apprendre-html/mise-en-forme-html.html">Mise en forme HTML</a><a href="/apprendre-html/les-liens-html.html">Les liens</a><a href="/apprendre-html/les-images-html.html">Les images</a><a href="/apprendre-html/les-listes-html.html"
+							   class="text-blue-400">Listes</a><a href="/apprendre-html/les-couleurs-html.html">Les couleurs</a><a href="/apprendre-html/les-commentaires-html.html">Commentaires</a><a href="/apprendre-html/les-tableaux-html.html">Les tableaux</a><a href="/apprendre-html/scripts-html.html">Scripts</a></li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							Gabarits HTML
+						</strong><a href="/apprendre-html/gabarits-des-mises-en-page-html.html">Gabarits des mises en page HTML</a></li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML-5
+						</strong><a href="/apprendre-html/introduction-a-html5.html">Introduction à HTML5</a><a href="/apprendre-html/les-elements-semantiques-html5.html">Les éléments sémantiques HTML5</a><a href="/apprendre-html/audio-et-video-en-html5.html">Audio et vidéo</a></li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							Références HTML
+						</strong><a href="/apprendre-html/html-encodage.html">Encodage</a><a href="/apprendre-html/html-ascii.html">ASCII</a><a href="/apprendre-html/html-iso-8859-1.html">HTML ISO-8859-1</a><a href="/apprendre-html/html-codes-des-langues.html">Codes des langues</a><a href="/apprendre-html/codes-des-caracteres-utf-8.html">Caractères UTF-8</a><a href="/apprendre-html/entites-html.html">Entités HTML</a><a href="/apprendre-html/raccourcis-clavier.html">Raccourcis clavier</a><a href="/apprendre-html/methodes-http.html">Méthodes HTTP</a><a href="/apprendre-html/messages-detat-http.html">Messages d’état HTTP</a><a href="/apprendre-html/types-mime.html">Types MIME</a><a href="/apprendre-html/tableau-des-tags-html.html">Tableau des tags HTML</a><a href="/apprendre-html/xhtml.html">XHTML</a></li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							Les tags de HTML
+						</strong><a href="/apprendre-html/global-attributes.html">Attributs globaux</a><a href="/apprendre-html/attributs-devenements.html">Attributs d’événements</a><a href="/apprendre-html/html-tag.html">&lt;!-- ... --&gt;</a><a href="/apprendre-html/declaration-doctype.html">&lt;!DOCTYPE&gt;</a><a href="/apprendre-html/html-tag-a.html">&lt;a&gt;</a><a href="/apprendre-html/html-tag-abbr.html">&lt;abbr&gt;</a><a href="/apprendre-html/html-tag-acronym.html">&lt;acronym&gt;</a><a href="/apprendre-html/html-tag-address.html">&lt;address&gt;</a><a href="/apprendre-html/html-tag-applet.html">&lt;applet&gt;</a><a href="/apprendre-html/html-tag-area.html">&lt;area&gt;</a><a href="/apprendre-html/html-tag-article.html">&lt;article&gt;</a><a href="/apprendre-html/html-tag-aside.html">&lt;aside&gt;</a><a href="/apprendre-html/html-tag-audio.html">&lt;audio&gt;</a><a href="/apprendre-html/html-tag-b.html">&lt;b&gt;</a><a href="/apprendre-html/html-tag-base.html">&lt;base&gt;</a><a href="/apprendre-html/html-tag-basefont.html">&lt;basefont&gt;</a><a href="/apprendre-html/html-tag-bdi.html">&lt;bdi&gt;</a><a href="/apprendre-html/html-tag-bdo.html">&lt;bdo&gt;</a><a href="/apprendre-html/html-tag-big.html">&lt;big&gt;</a><a href="/apprendre-html/html-tag-blink.html">&lt;blink&gt;</a><a href="/apprendre-html/html-tag-blockquote.html">&lt;blockquote&gt;</a><a href="/apprendre-html/html-tag-body.html">&lt;body&gt;</a><a href="/apprendre-html/html-tag-br.html">&lt;br&gt;</a><a href="/apprendre-html/html-tag-button.html">&lt;button&gt;</a><a href="/apprendre-html/html-tag-canvas.html">&lt;canvas&gt;</a><a href="/apprendre-html/html-tag-caption.html">&lt;caption&gt;</a><a href="/apprendre-html/html-tag-center.html">&lt;center&gt;</a><a href="/apprendre-html/html-tag-cite.html">&lt;cite&gt;</a><a href="/apprendre-html/html-tag-code.html">&lt;code&gt;</a><a href="/apprendre-html/html-tag-col.html">&lt;col&gt;</a><a href="/apprendre-html/html-tag-colgroup.html">&lt;colgroup&gt;</a><a href="/apprendre-html/html-tag-data.html">&lt;data&gt;</a><a href="/apprendre-html/html-tag-datalist.html">&lt;datalist&gt;</a><a href="/apprendre-html/html-tag-dd.html">&lt;dd&gt;</a><a href="/apprendre-html/html-tag-del.html">&lt;del&gt;</a><a href="/apprendre-html/html-tag-details.html">&lt;details&gt;</a><a href="/apprendre-html/html-tag-dfn.html">&lt;dfn&gt;</a><a href="/apprendre-html/html-tag-dialog.html">&lt;dialog&gt;</a><a href="/apprendre-html/html-tag-dir.html">&lt;dir&gt;</a><a href="/apprendre-html/html-tag-div.html">&lt;div&gt;</a><a href="/apprendre-html/html-tag-dl.html">&lt;dl&gt;</a><a href="/apprendre-html/html-tag-dt.html">&lt;dt&gt;</a><a href="/apprendre-html/html-tag-em.html">&lt;em&gt;</a><a href="/apprendre-html/html-tag-embed.html">&lt;embed&gt;</a><a href="/apprendre-html/html-tag-fieldset.html">&lt;fieldset&gt;</a><a href="/apprendre-html/html-tag-figcaption.html">&lt;figcaption&gt;</a><a href="/apprendre-html/html-tag-figure.html">&lt;figure&gt;</a><a href="/apprendre-html/html-tag-font.html">&lt;font&gt;</a><a href="/apprendre-html/html-tag-footer.html">&lt;footer&gt;</a><a href="/apprendre-html/html-tag-form.html">&lt;form&gt;</a><a href="/apprendre-html/html-tag-frame.html">&lt;frame&gt;</a><a href="/apprendre-html/html-tag-frameset.html">&lt;frameset&gt;</a><a href="/apprendre-html/html-tags-h1-h6.html">&lt;h1&gt;-&lt;h6&gt;</a><a href="/apprendre-html/html-tag-head.html">&lt;head&gt;</a><a href="/apprendre-html/html-tag-header.html">&lt;header&gt;</a></li><li class="flex flex-col gap-1.5"><a href="/apprendre-html/html-tag-hgroup.html">&lt;hgroup&gt;</a><a href="/apprendre-html/html-tag-hr.html">&lt;hr&gt;</a><a href="/apprendre-html/html-tag-html.html">&lt;html&gt;</a><a href="/apprendre-html/html-tag-i.html">&lt;i&gt;</a><a href="/apprendre-html/html-tag-iframe.html">&lt;iframe&gt;</a><a href="/apprendre-html/html-tag-img.html">&lt;img&gt;</a><a href="/apprendre-html/html-tag-input.html">&lt;input&gt;</a><a href="/apprendre-html/html-tag-ins.html">&lt;ins&gt;</a><a href="/apprendre-html/html-tag-isindex.html">&lt;isindex&gt;</a><a href="/apprendre-html/html-tag-kbd.html">&lt;kbd&gt;</a><a href="/apprendre-html/html-tag-keygen.html">&lt;keygen&gt;</a><a href="/apprendre-html/html-tag-label.html">&lt;label&gt;</a><a href="/apprendre-html/html-tag-legend.html">&lt;legend&gt;</a><a href="/apprendre-html/html-tag-li.html">&lt;li&gt;</a><a href="/apprendre-html/html-tag-link.html">&lt;link&gt;</a><a href="/apprendre-html/html-tag-main.html">&lt;main&gt;</a><a href="/apprendre-html/html-tag-mark.html">&lt;mark&gt;</a><a href="/apprendre-html/html-tag-map.html">&lt;map&gt;</a><a href="/apprendre-html/html-tag-marquee.html">&lt;marquee&gt;</a><a href="/apprendre-html/html-tag-menu.html">&lt;menu&gt;</a><a href="/apprendre-html/html-tag-menuitem.html">&lt;menuitem&gt;</a><a href="/apprendre-html/html-tag-meta.html">&lt;meta&gt;</a><a href="/apprendre-html/html-tag-meter.html">&lt;meter&gt;</a><a href="/apprendre-html/html-tag-nav.html">&lt;nav&gt;</a><a href="/apprendre-html/html-tag-nobr.html">&lt;nobr&gt;</a><a href="/apprendre-html/html-tag-noframes.html">&lt;noframes&gt;</a><a href="/apprendre-html/html-tag-noscript.html">&lt;noscript&gt;</a><a href="/apprendre-html/html-tag-object.html">&lt;object&gt;</a><a href="/apprendre-html/html-teg-ol.html">&lt;ol&gt;</a><a href="/apprendre-html/html-tag-optgroup.html">&lt;optgroup&gt;</a><a href="/apprendre-html/html-tag-option.html">&lt;option&gt;</a><a href="/apprendre-html/html-tag-output.html">&lt;output&gt;</a><a href="/apprendre-html/html-tag-p.html">&lt;p&gt;</a><a href="/apprendre-html/html-tag-param.html">&lt;param&gt;</a><a href="/apprendre-html/html-tag-plaintext.html">&lt;plaintext&gt;</a><a href="/apprendre-html/html-tag-picture.html">&lt;picture&gt;</a><a href="/apprendre-html/html-tag-pre.html">&lt;pre&gt;</a><a href="/apprendre-html/html-tag-progress.html">&lt;progress&gt;</a><a href="/apprendre-html/html-tag-q.html">&lt;q&gt;</a><a href="/apprendre-html/html-tag-rp.html">&lt;rp&gt;</a><a href="/apprendre-html/html-tag-rt.html">&lt;rt&gt;</a><a href="/apprendre-html/html-tag-ruby.html">&lt;ruby&gt;</a><a href="/apprendre-html/html-tag-s.html">&lt;s&gt;</a><a href="/apprendre-html/html-tag-samp.html">&lt;samp&gt;</a><a href="/apprendre-html/html-tag-script.html">&lt;script&gt;</a><a href="/apprendre-html/html-tag-section.html">&lt;section&gt;</a><a href="/apprendre-html/html-tag-select.html">&lt;select&gt;</a><a href="/apprendre-html/html-tag-small.html">&lt;small&gt;</a><a href="/apprendre-html/html-tag-spacer.html">&lt;spacer&gt;</a><a href="/apprendre-html/html-tag-source.html">&lt;source&gt;</a><a href="/apprendre-html/html-tag-span.html">&lt;span&gt;</a><a href="/apprendre-html/html-tag-strike.html">&lt;strike&gt;</a><a href="/apprendre-html/html-tag-strong.html">&lt;strong&gt;</a><a href="/apprendre-html/html-tag-style.html">&lt;style&gt;</a><a href="/apprendre-html/html-tag-sub.html">&lt;sub&gt;</a></li><li class="flex flex-col gap-1.5"><a href="/apprendre-html/html-tag-summary.html">&lt;summary&gt;</a><a href="/apprendre-html/html-tag-sup.html">&lt;sup&gt;</a><a href="/apprendre-html/html-tag-svg.html">&lt;svg&gt;</a><a href="/apprendre-html/html-tag-table.html">&lt;table&gt;</a><a href="/apprendre-html/html-tag-tbody.html">&lt;tbody&gt;</a><a href="/apprendre-html/html-tag-td.html">&lt;td&gt;</a><a href="/apprendre-html/html-tag-template.html">&lt;template&gt;</a><a href="/apprendre-html/html-tag-textarea.html">&lt;textarea&gt;</a><a href="/apprendre-html/html-tag-tfoot.html">&lt;tfoot&gt;</a><a href="/apprendre-html/html-tag-th.html">&lt;th&gt;</a><a href="/apprendre-html/html-tag-thead.html">&lt;thead&gt;</a><a href="/apprendre-html/html-tag-time.html">&lt;time&gt;</a><a href="/apprendre-html/html-tag-title.html">&lt;title&gt;</a><a href="/apprendre-html/html-tag-tr.html">&lt;tr&gt;</a><a href="/apprendre-html/html-tag-track.html">&lt;track&gt;</a><a href="/apprendre-html/html-tag-tt.html">&lt;tt&gt;</a><a href="/apprendre-html/html-tag-u.html">&lt;u&gt;</a><a href="/apprendre-html/html-tag-ul.html">&lt;ul&gt;</a><a href="/apprendre-html/html-tag-var.html">&lt;var&gt;</a><a href="/apprendre-html/html-tag-video.html">&lt;video&gt;</a><a href="/apprendre-html/html-tag-wbr.html">&lt;wbr&gt;</a><a href="/apprendre-html/html-tag-xmp.html">&lt;xmp&gt;</a></li></ul></nav>			</div>
+		</div>
+	
+	<div class="xl:ml-60 pt-16 min-h-screen">
+
+		<div class="grid grid-cols-12 gap-4">
+			<div class="col-span-12 md:col-span-9 scroll-pt-16">
+					<div class="print:text-black print:bg-white">
+						<div class="p-4 md:p-8">
+		
+		<div class="mb-4 print:hidden">
+			<script async
+			        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328390942002432"
+			        crossorigin="anonymous"></script>
+			<!-- Horizontal Top Ad -->
+			<ins class="adsbygoogle top-ad-horizontal"
+			     style="display:inline-block"
+			     data-ad-client="ca-pub-1328390942002432"
+			     data-ad-slot="7973163710"
+			></ins>
+			<script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+
+		<div>
+	<div itemprop="articleBody">
+		<div class="chapter-container prose lg:prose-lg max-w-none">
+		<div class="mb-2 md:mb-0 md:border-b md:border-gray-200 pb-1 flex flex-col-reverse md:flex-row flex-wrap justify-between">
+			<h1 itemprop="name" class="font-poppins text-2xl">
+				Les listes HTML
+			</h1>
+
+			<div class="hidden md:block border-b md:border-0 border-gray-200 flex justify-end mb-3 md:mb-0 pb-2 md:pb-0 md:mb-0 items-start">
+									<a href="/apprendre-html/les-images-html.html"
+					   title="prev"
+					   class="chapter-top-nav btn btn-blue"
+					   aria-label="Previous Chapter">
+						❮ Précédent
+					</a>
+				
+									<a href="/apprendre-html/les-couleurs-html.html"
+					   title="next"
+					   class="chapter-top-nav btn btn-blue ml-1.5"
+					   aria-label="Next Chapter">
+						Suivant ❯
+					</a>
+							</div>
+		</div>
+
+		
+														
+	
+	<p>Le langage de balisage hypertexte prend en charge trois types de listes, chacune avec ses propres balises.</p>
+
+
+
+
+
+
+
+
+																
+	
+	<h2 id="liste-non-ordonee-2" class="scroll-mt-20">Liste non ordonée</h2>
+
+
+
+
+
+
+																
+	
+	
+
+<p>La liste non ordonée contient des listes non numérotées d'éléments sans séquence spécifique. Pour créer une liste non ordonée, on utilise l'élément de bloc &lt;ul&gt;.</p>
+
+<p>Chaque élément de la liste commence par le tag d’ouverture <a href="/apprendre-html/html-tag-li.html">&lt;li&gt;</a> et termine par le tag de fermeture &lt;/li&gt;. Le marqueur par défaut pour tous les points est un petit cercle noir.</p>
+
+
+
+
+
+
+
+
+																
+	
+	<h3 id="exemple-4" class="scroll-mt-20">Exemple</h3>
+
+
+
+
+
+
+																
+	
+	<div class="relative mb-5" itemscope itemtype="https://schema.org/Code">
+		<meta itemprop="name" content="Exemple d&#039;une liste non ordonnée avec trois points | Les listes HTML" />
+		<div itemprop="text"><pre class="text-sm bg-gray-900 text-white p-4" style="max-height: 550px; font-size: 0.875rem; word-break: break-word;
+    word-wrap: break-word;"><code class="hljs html"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Titre du document<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Liste non ordonée<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Le premier point de la liste<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Un autre point de la liste<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Encore un point de la liste<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre></div>
+
+					<div class="text-right -mt-4">
+				<a
+						href="/tools/editor/4819"
+						target="_blank"
+						class="btn btn-green"
+						itemprop="url">
+					Essayez-vous-même!
+				</a>
+			</div>
+		
+			</div>
+
+
+
+
+
+
+
+																
+	
+	<h3 id="resultat-6" class="scroll-mt-20">Résultat</h3>
+
+
+
+
+
+
+																
+	
+	
+
+
+<div class="responsive-image"><img  src="/uploads/media/default/0001/02/fc770c658744c434f95f953db61b1252b0a6b721.png" width="424" height="299" alt="unordered-list" layout="responsive"></div>
+
+<p>Les éléments des listes non ordonnées sont marqués avec des puces (petits cercles noirs) par défaut. Toutefois, vous pouvez modifier le style de puce par défaut pour les éléments de la liste à l'aide de l'attribut <span class = "attribut"> type </ span>.</p> 
+
+<p>Vous pouvez utiliser l'attribut <span class="attribute">type</span>  pour changer le style de puce par défaut pour les éléments de la liste.</p> 
+
+
+
+
+
+
+
+
+																
+	
+	<h3 id="exemple-8" class="scroll-mt-20">Exemple</h3>
+
+
+
+
+
+
+																
+	
+	<div class="relative mb-5" itemscope itemtype="https://schema.org/Code">
+		<meta itemprop="name" content="Exemple d&#039;une liste HTML avec l&#039;attribut type" />
+		<div itemprop="text"><pre class="text-sm bg-gray-900 text-white p-4" style="max-height: 550px; font-size: 0.875rem; word-break: break-word;
+    word-wrap: break-word;"><code class="hljs html"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Titre du document<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;circle&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Élément de liste <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Élément de liste<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Élément de liste<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;square&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Élément de liste<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Élément de liste<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Élément de liste<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre></div>
+
+					<div class="text-right -mt-4">
+				<a
+						href="/tools/editor/5546"
+						target="_blank"
+						class="btn btn-green"
+						itemprop="url">
+					Essayez-vous-même!
+				</a>
+			</div>
+		
+			</div>
+
+
+
+
+
+
+
+																
+	
+	<h3 id="resultat-10" class="scroll-mt-20">Résultat</h3>
+
+
+
+
+
+
+																
+	
+	
+
+
+<div class="responsive-image"><img  src="/uploads/media/default/0001/02/7dd0b8925a49b33d3e4b973762b91e7bf7e3bf97.png" width="424" height="299" alt="description-list" layout="responsive"></div>
+
+<p>Vous pouvez également utiliser la propriété CSS <span class="property">list-style-type </span>ou <span class="property">list-style-image</span> pour définir le type de l'élément de la liste. 
+
+
+
+
+
+
+
+
+																
+	
+	<h3 id="exemple-12" class="scroll-mt-20">Exemple</h3>
+
+
+
+
+
+
+																
+	
+	<div class="relative mb-5" itemscope itemtype="https://schema.org/Code">
+		<meta itemprop="name" content="Exemple d&#039;une liste des boissons | Les listes HTML" />
+		<div itemprop="text"><pre class="text-sm bg-gray-900 text-white p-4" style="max-height: 550px; font-size: 0.875rem; word-break: break-word;
+    word-wrap: break-word;"><code class="hljs html"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Titre du document<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Exemples des listes non ordonées:<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;list-style-type: square;&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Boissons gazeuses<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Boissons chaudes<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Glaciers<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;list-style-type: disc;&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Coca-Cola<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Fanta<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Thé glacé<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;list-style-type: circle;&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Coca-Cola<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Fanta<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Ice Tea<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre></div>
+
+					<div class="text-right -mt-4">
+				<a
+						href="/tools/editor/5548"
+						target="_blank"
+						class="btn btn-green"
+						itemprop="url">
+					Essayez-vous-même!
+				</a>
+			</div>
+		
+			</div>
+
+
+
+
+
+
+
+																
+	
+	<h3 id="resultat-14" class="scroll-mt-20">Résultat</h3>
+
+
+
+
+
+
+																
+	
+	
+
+
+<div class="responsive-image"><img  src="/uploads/media/default/0001/02/180779d3c97d848b97185e3990bbd3bde89d2a99.png" width="424" height="382" alt="unordered-lists-with-css" layout="responsive"></div>
+
+
+
+
+
+
+
+
+																
+	
+	<h2 id="la-liste-numerotee-16" class="scroll-mt-20">La liste numérotée</h2>
+
+
+
+
+
+
+																
+	
+	
+
+<p>La liste numérotée contient des éléments dans une certaine séquence. La liste est située dans l’élément de bloc &lt;ol&gt;.</p>
+
+<p>Chaque élément de la liste numérotée commence par le tag d’ouverture &lt;li&gt; et termine par le tag de fermeture &lt;/li&gt;. Les points de la liste sont numérotés automatiquement.</p>
+
+
+
+
+
+
+
+
+																
+	
+	<h3 id="exemple-18" class="scroll-mt-20">Exemple</h3>
+
+
+
+
+
+
+																
+	
+	<div class="relative mb-5" itemscope itemtype="https://schema.org/Code">
+		<meta itemprop="name" content="Exemple d&#039;une liste numérotée avec trois points" />
+		<div itemprop="text"><pre class="text-sm bg-gray-900 text-white p-4" style="max-height: 550px; font-size: 0.875rem; word-break: break-word;
+    word-wrap: break-word;"><code class="hljs html"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Titre du document<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Liste numérotée<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ol</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Premier point du liste numérotée<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Deuxième point du liste numérotée<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Troisième point du liste numérotée<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre></div>
+
+					<div class="text-right -mt-4">
+				<a
+						href="/tools/editor/4821"
+						target="_blank"
+						class="btn btn-green"
+						itemprop="url">
+					Essayez-vous-même!
+				</a>
+			</div>
+		
+			</div>
+
+
+
+
+
+
+
+																
+	
+	<h3 id="resultat-20" class="scroll-mt-20">Résultat</h3>
+
+
+
+
+
+
+																
+	
+	
+
+
+<div class="responsive-image"><img  src="/uploads/media/default/0001/02/8a41aa3596da37caae40901d672bc4df1cf4df80.png" width="424" height="302" alt="ordered-list" layout="responsive"></div>
+
+<p>Si vous voulez créer une liste numérotée avec des chiffres romains ou une liste où la séquence est indiquée par des lettres, ajoutez simplement à l'élément &lt;ol&gt; type = "I" ("i") ou type = "A" ("a") respectivement.</p>
+
+
+
+
+
+
+
+
+																
+	
+	<h3 id="exemple-22" class="scroll-mt-20">Exemple</h3>
+
+
+
+
+
+
+																
+	
+	<div class="relative mb-5" itemscope itemtype="https://schema.org/Code">
+		<meta itemprop="name" content="Exemple de &lt;ol type=&quot;i&quot;&gt; et  &lt;ol type=&quot;a&quot;&gt;" />
+		<div itemprop="text"><pre class="text-sm bg-gray-900 text-white p-4" style="max-height: 550px; font-size: 0.875rem; word-break: break-word;
+    word-wrap: break-word;"><code class="hljs html"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Titre du document<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Liste numéroté:<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ol</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Pêche
+        ...
+      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Abricot<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Banane<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Fraise<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Liste avec numérotation alphabétique<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ol</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;A&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Pêche<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Abricot<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Banane<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Fraise<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Liste avec des lettres minuscules<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ol</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;a&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Pêche<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Abricot<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Banane<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Fraise<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Liste numéroté avec des chiffres romains:<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ol</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;I&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Pêche<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Abricot<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Banane<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Fraise<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Liste numéroté avec des chiffres minuscules romains<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ol</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;i&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Pêche<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Abricot<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Banane<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Fraise<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre></div>
+
+					<div class="text-right -mt-4">
+				<a
+						href="/tools/editor/4823"
+						target="_blank"
+						class="btn btn-green"
+						itemprop="url">
+					Essayez-vous-même!
+				</a>
+			</div>
+		
+			</div>
+
+
+
+
+
+
+
+																
+	
+	<h3 id="resultat-24" class="scroll-mt-20">Résultat</h3>
+
+
+
+
+
+
+																
+	
+	
+
+
+<div class="responsive-image"><img  src="/uploads/media/default/0001/02/18fc6da00088940487fc9c51ad1434a0cd3757ee.png" width="424" height="858" alt="list-with-type" layout="responsive"></div>
+
+
+
+
+
+
+
+
+																
+	
+	<h2 id="la-liste-des-definitions-descriptions-26" class="scroll-mt-20">La liste des définitions (descriptions)</h2>
+
+
+
+
+
+
+																
+	
+	
+
+<p>Dans la liste des définitions on indique des termes/noms et ses définitions. Ces listes sont utilisées pour créer des dictionnaires, des ouvrages de référence, etc.</p>
+
+<p>Pour créer une liste des définitions, on utilise l’élément apparié <a href="/apprendre-html/html-tag-dl.html">&lt;dl&gt;</a>, dans lequel des termes/noms sont écrits dans le tag <a href="/apprendre-html/html-tag-dt.html">&lt;dt&gt;</a>, et ses définitions dans le tag <a href="/apprendre-html/html-tag-dd.html">&lt;dd&gt;</a>.</p>
+
+
+
+
+
+
+
+
+																
+	
+	<h3 id="exemple-28" class="scroll-mt-20">Exemple</h3>
+
+
+
+
+
+
+																
+	
+	<div class="relative mb-5" itemscope itemtype="https://schema.org/Code">
+		<meta itemprop="name" content="Exemple d&#039;une liste des définitions | Les listes HTML" />
+		<div itemprop="text"><pre class="text-sm bg-gray-900 text-white p-4" style="max-height: 550px; font-size: 0.875rem; word-break: break-word;
+    word-wrap: break-word;"><code class="hljs html"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Titre du document<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Liste des définitions:<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">dl</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">dt</span>&gt;</span>Thé<span class="hljs-tag">&lt;/<span class="hljs-name">dt</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">dd</span>&gt;</span>- boisson chaude<span class="hljs-tag">&lt;/<span class="hljs-name">dd</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">dt</span>&gt;</span>Jus<span class="hljs-tag">&lt;/<span class="hljs-name">dt</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">dd</span>&gt;</span>- boisson gazeuse<span class="hljs-tag">&lt;/<span class="hljs-name">dd</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">dl</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre></div>
+
+					<div class="text-right -mt-4">
+				<a
+						href="/tools/editor/4825"
+						target="_blank"
+						class="btn btn-green"
+						itemprop="url">
+					Essayez-vous-même!
+				</a>
+			</div>
+		
+			</div>
+
+
+
+
+
+
+
+																
+	
+	<h3 id="resultat-30" class="scroll-mt-20">Résultat</h3>
+
+
+
+
+
+
+																
+	
+	
+
+
+<div class="responsive-image"><img  src="/uploads/media/default/0001/02/72a5598540857f0f6a6fada956c8a9bc3a9db92f.png" width="424" height="301" alt="description-list" layout="responsive"></div>
+
+
+
+
+
+
+									</div>
+
+		<hr class="mt-4" />
+
+		
+
+
+		
+	</div>
+</div>
+
+
+				<div class="flex justify-between my-8 print:hidden">
+							<a href="/apprendre-html/les-images-html.html"
+				   class="chapter-bottom-nav btn btn-blue"
+				   aria-label="Previous chapter">❮ Précédent</a>
+			
+							<a href="/apprendre-html/les-couleurs-html.html"
+				   class="chapter-bottom-nav btn btn-blue">Suivant ❯</a>
+					</div>
+
+		<div class="prose lg:prose-lg max-w-none">
+			<div class="mt-5">
+									<div>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328390942002432"
+     crossorigin="anonymous"></script>
+<!-- Snippet bottom -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-1328390942002432"
+     data-ad-slot="1441002000"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+							</div>
+
+						
+			<div class="flex justify-center print:hidden">
+	<div class="mt-5 border border-gray-300 rounded-lg text-center lg:w-2/3">
+		<div id="feedback-form-container" class="hidden p-10 p-md-20">
+			<strong class="text-2xl mb-8">Désolé</strong>
+			<input type="hidden" name="path" value="/feedback/vote-no/827/2" />
+			<input type="hidden" name="token"  value="6Le8frkUAAAAAGo4hSFtQEzgbMVM0KdMNM8M7EKr" />
+			<div class="text-left">
+				<label class="mb-2" for="feedback-message">Comment pouvons-nous l&#039;améliorer?</label>
+				<textarea id="feedback-message" name="message" required class="h-32 p-2 w-full"></textarea>
+				<div class="mt-2">
+					<input class="btn btn-blue" type="submit" value="Submit" />
+				</div>
+			</div>
+
+			<div class="hidden success-container">
+				<h4 class="p-5 mb-8">Merci pour vos commentaires !</h4>
+			</div>
+		</div>
+
+		<div id="feedback-message-thanks" class="hidden py-16 text-2xl">
+			Merci pour vos commentaires !
+		</div>
+
+		<div id="feedback-action-container" class="p-8">
+			<div class="mb-8 block text-2xl">Trouvez-vous cela utile?</div>
+			<div>
+				<button
+						id="feedback-positive-btn"
+						class="btn btn-outline">
+					Oui
+				</button>
+				<button
+						id="feedback-negative-btn"
+						class="btn btn-outline">
+					Non
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script async src="https://www.google.com/recaptcha/api.js?render=6Le8frkUAAAAAGo4hSFtQEzgbMVM0KdMNM8M7EKr"></script>
+
+		</div>
+	</div>
+				</div>
+			</div>
+
+										<div class="col-span-3 hidden md:block pl-2 pt-8 border-l border-gray-200">
+								<div>
+    <div style="min-height: 600px;">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328390942002432"
+     crossorigin="anonymous"></script>
+<!-- Right Side 1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1328390942002432"
+     data-ad-slot="1048956047"
+     data-ad-format="vertical"
+     ></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+  <div class=" relative py-5 text-center" style="height:100%">
+        <div class="quizzes-new" id="aside-quiz-block" style="margin: 20px auto; max-width: 200px;">
+  <a class="how-to" href="/quiz/" style="display: block;
+text-align: center;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+color: #ffffff;
+background: #202131;
+padding: 10px 20px;
+font-family: Poppins, sans-serif;
+font-style: normal;">
+  Questionnaires
+  </a>
+  <ul class="list" style="padding: 10px 0;   background: #F3F3F3;    display: flex;  align-items:center;  flex-direction: column;    gap: 10px;">
+    <li>
+      <a href="/quiz-start/html-de-base">
+      HTML de Base
+      </a>
+    </li>
+ <li>
+      <a href="/quiz-start/css-de-base1">     
+      CSS de Base
+      </a>
+    </li>
+ <li>
+      <a href="/quiz-start/javascript-de-base">
+      Javascript de Base
+      </a>
+    </li>
+  <li>
+      <a href="/quiz-start/php-de-base">
+      PHP de Base
+      </a>
+    </li>
+    <li>
+      <a href="/quiz-start/es6-de-base">         
+      ES6 de Base
+      </a>
+    </li>
+    <li>
+      <a href="/quiz-start/typescript-de-base">         
+      TypeScript de Base
+      </a>
+    </li>
+<li>
+      <a href="/quiz-start/angular1">        
+      Angular
+      </a>
+    </li>
+   <li>
+      <a href="/quiz-start/react1">         
+      React
+      </a>
+    </li>
+   <li>
+      <a href="/quiz-start/sass1">
+      Sass
+      </a>
+    </li>
+    <li>
+      <a href="/quiz-start/vuejs1">         
+       Vue.js
+      </a>
+    </li>
+   <li>
+      <a href="/quiz-start/git1">         
+      Git
+      </a>
+    </li>
+       <li>
+      <a href="/quiz-start/sql1">         
+      SQL
+      </a>
+    </li>
+  </ul>
+</div>
+  </div>
+</div>
+
+ <div style="position: sticky;  top: 100px;  margin-bottom: 35px;">
+           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328390942002432"
+     crossorigin="anonymous"></script>
+<!-- Content Sticky -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1328390942002432"
+     data-ad-slot="8443800953"
+     data-ad-format="vertical"
+     ></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+      </div>
+					</div>
+					</div>
+
+					<div class="bg-blue-steel text-white print:hidden">
+				<footer>
+	<div class="p-6 inline-block lg:pl-20 w-full lg:w-11/12">
+
+		<div class="pb-4">
+			        <ul class="flex flex-wrap justify-start sm:justify-evenly gap-12 md:gap-16">
+            
+                            <li class="first">        <span class="text-blue-500 mb-4 block text-lg">Questionnaires</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="/quiz-start/html-de-base">HTML de Base</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/css-de-base1">CSS  de Base</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/javascript-de-base">Javascript  de Base</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/php-de-base">PHP de Base</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/es6-de-base">ES6 de Base</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/typescript-de-base">TypeScript de Base</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/angular1">Angular</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/react1">React</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/sass1">Sass</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/vuejs1">Vue.js</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/git1">Git</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/quiz-start/sql1">SQL</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li>        <span class="text-blue-500 mb-4 block text-lg">Snippets</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="/snippets/git.html">Comment Git</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/javascript.html">Comment JavaScript</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/css.html">Comment CSS</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/php.html">Comment PHP</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/symfony.html">Comment Symfony</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/html.html">Comment HTML</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/java.html">Comment Java</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/angularjs.html">Comment AngularJs</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/google-maps.html">Comment Google Maps</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/nodejs.html">Comment NodeJs</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/linux.html">Comment Linux</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/snippets/apache.html">Comment Apache</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li>        <span class="text-blue-500 mb-4 block text-lg">Nos livres</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="/apprendre-html.html">Apprendre HTML</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/apprendre-css.html">Apprendre CSS</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li>        <span class="text-blue-500 mb-4 block text-lg">Nos outils</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="/tools/color-picker">Pipette de couleur</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/html-encoder/">Encodeur HTML</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/editor">Éditeur HTML</a>        
+    </li>
+
+    
+                <li>        <a href="/css3-maker/border-radius">Créateur CSS</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/password-generator">Générateur de code</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/image-base64">Base 64</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/tools/code-diff/">Code Diff</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class="last">        <span class="text-blue-500 mb-4 block text-lg">Fonctions de chaîne</span>                <ul class="flex flex-col gap-2 menu_level_1">
+            
+                <li class="first">        <a href="/tools/string-length-calculator">Calculateur de longueur de chaîne</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-md5-generator">Chaîne du générateur pour hashage MD5</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-sha256-generator">Chaîne de calculateur de hashage SHA-256</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-revers">Inverse de chaîne</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-url-encoder">Encodeur URL</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-url-decoder">Décodeur URL</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-base64-encoder">Encodeur Base 64</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-base64-decoder">Décodeur Base 64</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-remove-extra-spaces">Suppression des Espaces Superflus</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/tools/string-convert-lowercase">Conversion de la Chaîne en Minuscule</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+
+    </ul>
+
+		</div>
+
+		<div class="py-8 border-t border-gray-700 flex gap-4 flex-col md:flex-row items-center md:justify-between">
+			<div>
+				        <ul class="flex gap-4">
+            
+                <li class="first">        <a href="/about-us">À Propos</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/privacy-policy">Politique de Confidentialité pour W3Docs</a>        
+    </li>
+
+
+    </ul>
+
+			</div>
+
+			<a href="/" aria-label="w3docs homepage">
+				<img src="/build/images/footer-logo.png"
+				     alt="logo"
+				     width="111"
+				     height="30" />
+
+			</a>
+
+			<div>
+				<strong>Suivez nous</strong>
+				<a id="follows-fb" href="https://www.facebook.com/w3docs" target="_blank"
+				   aria-label="follow on facebook" rel="noopener"></a>
+
+				<a id="follows-tt" href="https://twitter.com/w3docs" target="_blank"
+				   aria-label="follow on twitter"
+				   rel="noopener"></a>
+			</div>
+
+		</div>
+		<div class="pt-8 text-center border-t border-gray-700">
+			<small>Company &copy; W3docs. All rights reserved.</small>
+		</div>
+	</div>
+</footer>
+
+			</div>
+			</div>
+
+</div>
+</body>
+</html>

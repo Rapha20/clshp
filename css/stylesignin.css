@@ -1,0 +1,48 @@
+body {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	width: 100%;
+	background-color: rgb(128,128,128);
+	padding-top: 1px;
+
+}
+/*design profil*/
+#signin #profil img{
+	display: block;
+	width: 255px;
+	height: 255px;
+	border-radius: 50%;
+	border: 10px solid rgb(128,00,00);
+	margin: auto;
+	margin-top: 30px;
+} 
+#signin{
+	max-width: 500px;
+	background-color: #FFF;
+	padding: 20px;
+	padding: 20px;
+	margin: auto;
+	margin-top: 100px;
+	height: 500px;
+
+}
+#signin input {
+	height: 25px;
+	width: 500px;
+	margin-top: 10px;
+	font-weight:bold;
+	margin-top: 15px;
+	
+	
+}
+#signin button{
+	background-color: rgb(128,00,00);
+	color: #FFF;
+	width: 505px;
+	padding: 5px;
+	font-size: 1em;
+
+} 
